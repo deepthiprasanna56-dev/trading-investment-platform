@@ -1,0 +1,145 @@
+.app-shell{--purple:#23694f;--green:#24845d;--muted:#89877c;--line:#e9e5d9;background:#f6f4ed;color:#252e28}
+.sidebar{background:#123d34;border-right-color:#255247;color:#f5f4ec;scrollbar-color:#41675b transparent}
+.brand{color:#fbfaf4}
+.brand-dot,.footer-brand span{color:#a7d1ad}
+.brand small{color:#a8bcb0}
+.brand-mark span{background:#d7e7d4}
+.side-label{color:#91a79b}
+.side-link,.market-fav{color:#c1d0c7}
+.side-link:hover,.market-fav:hover{background:#1b4a3e;color:#fff}
+.side-link.active,.sidebar .side-link.active{color:#153e34;background:#dce8d8}
+.nav-count{background:#e1eee0;color:#1d644a}
+.tiny-add{color:#bed0c3}
+.market-dot.violet{background:#244f43;color:#d9e7d6}
+.market-dot.orange{background:#5c5740;color:#f1d99d}
+.market-open-dot{background:#57ca91;box-shadow:0 0 0 3px #57ca9126}
+.profile-row{border-color:#315a4e;color:#f4f3eb}
+.profile-copy small{color:#a6b9ad}
+.profile-dots{color:#b1c3b8}
+.avatar,.top-avatar{background:#dfe9da;color:#205941}
+.main-area{background:#f6f4ed}
+.topbar{background:#fcfbf7;border-bottom-color:#e9e5da}
+.breadcrumb strong,.market-open{color:#45554b}
+.icon-btn{color:#65746a}
+.welcome-row h1{color:#26382e}
+.eyebrow>span{background:#3b9b70}
+.wave{color:#3e9c70}
+.button-primary,.place-order{background:#22694f;box-shadow:0 3px 9px #1c664e21}
+.button-primary:hover,.place-order:hover{background:#18553e}
+.top-signup{background:#22694f;border-color:#22694f}
+.top-signup:hover{background:#18553e}
+.promo-card:after{width:58px;height:58px;right:-20px;top:-23px;box-shadow:0 0 0 9px #ffffff08,0 0 0 18px #ffffff05}
+.promo-symbol{font-size:14px;color:#b9d8b8}
+.profile-menu-wrap{position:relative;display:inline-flex;align-items:center}
+.profile-menu{position:absolute;z-index:50;top:calc(100% + 11px);right:0;width:228px;padding:8px;border:1px solid #e5e5dc;border-radius:10px;background:#fffefa;box-shadow:0 14px 34px #213a2b20;animation:profile-menu-in .16s ease-out}
+.profile-menu-person{display:flex;align-items:center;gap:10px;padding:8px 7px 12px;border-bottom:1px solid #ecebe3}
+.profile-menu-person>span:last-child{display:grid;gap:3px;min-width:0}
+.profile-menu-person strong{color:#304538;font-size:11px}
+.profile-menu-person small{color:#879187;font-size:9px;overflow:hidden;text-overflow:ellipsis}
+.profile-menu>button{display:flex;align-items:center;justify-content:space-between;width:100%;padding:9px 8px;border:0;border-radius:6px;background:transparent;color:#516258;text-align:left;font-size:10px}
+.profile-menu>button:hover{background:#f0f4eb;color:#205e43}
+.profile-menu>button.profile-signout{margin-top:4px;border-top:1px solid #ecebe3;border-radius:0;color:#a45e58}
+.profile-dialog .modal-emblem{font-size:17px;font-weight:700}
+.profile-mode-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;margin:0 0 16px;border-radius:7px;background:#f1f2eb}
+.profile-mode-tabs button{border:0;border-radius:5px;padding:7px;background:transparent;color:#788278;font-size:10px}
+.profile-mode-tabs button.selected{background:#fffefa;color:#23694f;box-shadow:0 1px 4px #20362818;font-weight:650}
+.profile-edit-form{display:grid;gap:12px;text-align:left}
+.profile-edit-form label{display:grid;gap:6px;color:#59665b;font-size:9px;font-weight:620}
+.profile-edit-form input{height:39px;padding:0 11px;border:1px solid #e5e6dd;border-radius:6px;background:#fffefa;color:#35473a;font-size:11px;outline:none}
+.profile-edit-form input[readonly]{background:#f8f8f2;color:#566257}
+.profile-edit-form input:focus{border-color:#86ab89;box-shadow:0 0 0 3px #43856516}
+.profile-dialog-edit{width:100%;margin-top:3px}
+.profile-dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:3px}
+.profile-dialog-actions .button-primary,.profile-dialog-actions .button-quiet{padding:9px 12px;font-size:10px}
+@keyframes profile-menu-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+.index-card,.panel{background:#fffefa;border-color:#e9e5d9;box-shadow:0 2px 8px #4b42310a}
+.index-card:hover,.news-card:hover{box-shadow:0 10px 26px #4b423117}
+.index-top,.panel-kicker{color:#8e9388}
+.index-price,.portfolio-value{color:#283a30}
+.portfolio-change,.positive{color:#23825e!important}
+.negative{color:#c26562!important}
+.change-badge{background:#eaf3e9;color:#23784f}
+.change-down{background:#faeeeb;color:#c26562}
+.live-pill{background:#e9f3e9;color:#27825d}
+.period-tabs button.selected{color:#216a4e;background:#edf3e8}
+.chart-legend i{background:#338966}
+.chart-line-path{stroke:#328561!important}
+.chart-fill-path{fill-opacity:.75}
+.chart-drawing svg circle{fill:#328561}
+.donut{background:conic-gradient(#277251 0 42%,#6fa57b 42% 66%,#d7b274 66% 84%,#8cacb4 84% 100%)}
+.dot-violet{background:#277251}.dot-green{background:#6fa57b}.dot-yellow{background:#d7b274}.dot-blue{background:#8cacb4}
+.search-input{border-color:#e7e3d8;background:#fffefa}
+.search-input input{background:transparent}
+.mini-buy,.holding-trade{border-color:#d8e6d9;color:#24694f}
+.mini-buy:hover,.holding-trade:hover{background:#22694f;color:#fff}
+.watch-add,.watch-count{background:#edf3e9;color:#286e51}
+.watch-toggle:hover,.watch-item:hover .watch-remove{color:#317d5d}
+.trade-panel{border-color:#e3e8dc;background:#fffefa}
+.trade-tabs button.buy-selected{color:#23794f}
+.trade-tabs button.sell-selected{color:#c56865}
+.place-order.place-sell{background:#c96e69}
+.place-order.place-sell:hover{background:#b85b56}
+.paper-badge{background:#edf3e9;color:#317652}
+.activity-icon.bought,.activity-icon.buy{background:#eaf3e9;color:#27845c}
+.activity-icon.sold,.activity-icon.sell{background:#faeeeb;color:#c26562}
+.activity-icon.dividend{background:#f7f0df;color:#a48134}
+.text-link,.activity-more,.trust-cta,.news-copy button,.stocks-footer-link{color:#286c50}
+.text-link:hover,.trust-cta:hover{color:#174f3a}
+.news-1 .news-art{background:#ecefe5}.news-2 .news-art{background:#e7eee8}.news-3 .news-art{background:#f2ebdd}
+.news-art-orb{background:radial-gradient(circle at 35% 28%,#d3e5cc,#79aa78 42%,#386a4e 74%);box-shadow:14px 16px 28px #426f4935,inset -9px -12px 20px #24463070}
+.news-2 .news-art-orb{background:radial-gradient(circle at 35% 28%,#cee6d9,#65ae87 47%,#2d7655 78%);box-shadow:14px 16px 28px #38a48030,inset -9px -12px 20px #18584075}
+.news-3 .news-art-orb{background:radial-gradient(circle at 35% 28%,#f2dfb8,#d2a65e 47%,#93613a 78%);box-shadow:14px 16px 28px #ce834430,inset -9px -12px 20px #82431f80}
+.news-art-line{border-color:#ffffffb8}
+.news-art-label{color:#45664f}.news-2 .news-art-label{color:#3c6654}.news-3 .news-art-label{color:#775f3f}
+.footer{border-color:#e9e5d9;color:#88877e}
+.footer-brand{color:#33483b}
+.footer nav a,.footer nav button{color:#777c71}
+.footer nav a:hover,.footer nav button:hover{color:#256d50}
+.toast{background:#173f34}
+.modal-emblem{background:#edf3e8;color:#246c50}
+.modal-card h2{color:#273b30}
+.modal-actions .button-primary{background:#22694f}
+.market-directory,.holdings-panel{background:#fffefa;border-color:#e9e5d9}
+.directory-table th,.holdings-table th{background:#f6f4ec;color:#81867b}
+.directory-table tbody tr.market-selected{background:#eff3e9}
+.market-pill{background:#e9f3e9;color:#247b52}
+.market-pill-down{background:#faeeeb;color:#c26562}
+.directory-note{background:#f7f5ed}
+.directory-note strong{color:#286e51}
+.market-identity strong,.holding-name strong{color:#35483b}
+.global-map-panel,.auth-form-card{background:#fffefa;border-color:#e9e5d9}
+.global-map-canvas{background:radial-gradient(ellipse at 52% 54%,#edf1e5 0%,#f8f7ef 52%,transparent 76%)}
+.globe-halo{border-color:#dce5d8;background-image:radial-gradient(circle,#a9bda7 1px,transparent 1.5px)}
+.continent{background:#dbe7d6}
+.route-path{stroke:#43866b}.route-1{stroke:#77a582}.route-2{stroke:#c39b59}
+.city-point i{background:#367c5d;box-shadow:0 0 0 3px #367c5d25}
+.city-point:hover i,.city-active i{box-shadow:0 0 0 5px #367c5d25,0 0 15px #367c5d66}
+.city-point>span{border-color:#e8e5da;color:#4b6351}
+.map-caption{border-color:#e4e6dc;background:#fffef1df;color:#85877b}
+.map-caption>span:first-child{color:#32805a}.map-caption strong{color:#3c5141}
+.trust-column h2{color:#293e31}
+.trust-column>p,.trust-feature small{color:#7e867c}
+.trust-feature{border-color:#e8e6dc}.trust-feature>span{color:#478364}
+.trust-feature strong{color:#3a4b3e}
+.trust-cta{color:#286b4f}
+.holdings-total{background:#edf2e7;color:#637864}
+.holding-name i{background:color-mix(in srgb,var(--brand-color) 12%,white)}
+.auth-page{background:#f6f4ed;color:#293a30}
+.auth-header,.auth-footer{border-color:#e7e3d8}
+.auth-story{background:radial-gradient(ellipse at 79% 31%,#426b53 0%,transparent 31%),linear-gradient(142deg,#153f35,#255444 64%,#173d34)}
+.auth-story h1 em{color:#c9dba9}
+.auth-kicker i{background:#77cf97;box-shadow:0 0 0 4px #77cf971e}
+.auth-orbit-one{border-color:#ffffff1c;box-shadow:0 0 0 23px #ffffff08,0 0 0 48px #ffffff05}
+.auth-orbit-two{border-color:#c3d7ab25}
+.auth-floating-card{border-color:#ffffff2b;background:linear-gradient(145deg,#ffffff21,#ffffff0b)}
+.auth-floating-card small{color:#99e1b2}
+.auth-form-mark{background:#edf3e8;color:#246c50}
+.auth-form-card h2{color:#293c31}
+.auth-form-card input:not([type=checkbox]):focus{border-color:#86ab89;box-shadow:0 0 0 3px #43856516}
+.password-toggle,.auth-switch button{color:#256c50}
+.auth-terms span{color:#256c50}
+.auth-submit{background:#22694f}
+.auth-back:hover{color:#286c50}
+@media(max-width:1000px){.top-signup{display:inline-flex;padding:6px 9px;font-size:9px}}
+@media(max-width:650px){.top-signup{display:inline-flex;padding:6px 8px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.route-path,.news-art-orb,.auth-floating-card{animation:none}}
